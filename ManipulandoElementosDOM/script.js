@@ -10,7 +10,7 @@ function adicionar(){
 
   //lista.children[0].innerHTML += "(Alterado)" //O inner remove todos os elementos da tela e vai montar novament.
 
-  lista.children[0].append("(Alterado)") //Outra forma de alterar o HTML via JS. O append faz apenas alterar o elemento q vc está alterando sem mexer nos demais elementos
+  //lista.children[0].append("(Alterado)") //Outra forma de alterar o HTML via JS. O append faz apenas alterar o elemento q vc está alterando sem mexer nos demais elementos
 
   const newItemList = document.createElement("li")
   newItemList.textContent = "Item 3"
