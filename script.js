@@ -1,27 +1,10 @@
-const titulo = document.getElementById("titulo")
-console.log(titulo)
-
-// const tituloTag = document.getElementsByTagName("h1")
-// console.log(tituloTag)
-
-const classTitle = document.getElementsByClassName("titulo-javascript")
-console.log(classTitle)
 
 
-const subTitle = document.querySelectorAll("h2")
-console.log(subTitle)
+function adicionar(){
+  const lista = document.querySelector('.lista')
 
-const arryElements = document.querySelectorAll(".lista ul li")
-console.log(arryElements)
+  //console.log(lista.children[0])   //elementos que são filhos dessa lista <ul>
 
-function trocarCor(){
-  console.log('trocou')
+  lista.innerHTML += "<li>Item 3</li>" //adicionando um elemento na lista via js
+  console.log(lista.innerHTML)
 }
-
-function enviar(){
-  console.log("enviou")
-}
-
-const button = document.getElementById("enviar-form")
-
-button.addEventListener("click", enviar)
