@@ -6,7 +6,7 @@ function atribuir() {
   console.log(verifyExistsClass);
 }
 
-/*foi vista o metodo (.add) para adicionar um class
+/*foi visto o metodo (.add) para adicionar um class
 o metodo (.replace) para trocar a class.
 o metodo (.toggle) para auternar de classe.
 o metodo (contains) verifica se um elemento possui ou não uma class*/
