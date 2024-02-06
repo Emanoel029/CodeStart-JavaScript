@@ -1,10 +1,17 @@
+const title = document.getElementById("title");
 
+const titulo = document.getElementsByTagName("h1");
 
-function adicionar(){
-  const lista = document.querySelector('.lista')
+console.log(titulo);
 
-  //console.log(lista.children[0])   //elementos que são filhos dessa lista <ul>
+const classTitulo = document.getElementsByClassName("title-js");
 
-  lista.innerHTML += "<li>Item 3</li>" //adicionando um elemento na lista via js
-  console.log(lista.innerHTML)
-}
+console.log(classTitulo);
+
+const subTitle = document.querySelectorAll("h2");
+console.log(subTitle);
+
+const arrayElements = document.querySelectorAll(".lista ul li");
+console.log(arrayElements);
+
+//29
